@@ -10,26 +10,26 @@ tab_1.addEventListener("click", function(){
     this.classList.add('active-link');
     tab_2.classList.remove('active-link');
     tab_3.classList.remove('active-link');
-    tab1_pane.classList.add('active');
-    tab2_pane.classList.remove('active');
-    tab3_pane.classList.remove('active');
+    tab1_pane.classList.add('active','show');
+    tab2_pane.classList.remove('active','show');
+    tab3_pane.classList.remove('active','show');
     
 });
 tab_2.addEventListener("click", function(){
     this.classList.add('active-link');
     tab_1.classList.remove('active-link');
     tab_3.classList.remove('active-link');
-    tab1_pane.classList.remove('active');
-    tab2_pane.classList.add('active');
-    tab3_pane.classList.remove('active');
+    tab1_pane.classList.remove('active','show');
+    tab2_pane.classList.add('active','show');
+    tab3_pane.classList.remove('active','show');
 });
 tab_3.addEventListener("click", function(){
     this.classList.add('active-link');
     tab_1.classList.remove('active-link');
     tab_2.classList.remove('active-link');
-    tab1_pane.classList.remove('active');
-    tab2_pane.classList.remove('active');
-    tab3_pane.classList.add('active');
+    tab1_pane.classList.remove('active','show');
+    tab2_pane.classList.remove('active','show');
+    tab3_pane.classList.add('active','show');
 });
 
 
