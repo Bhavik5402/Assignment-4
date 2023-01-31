@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Inner Page</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="navbar">
+            <div class="col-lg-4 col-md-4 first-col">
+                <img src="./images/menu-bar.svg" alt="menu-button" id="menuButton" class="navbar-toggler navbar-toggler-custom" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="./images/header-logo.svg" alt="header-logo" id="header-logo">
+            </div>
+            <div class="col-lg-5 col-md-5 mid-col">
+                <p class="inlineText">
+                    <span><img src="./images/search-icon.svg" alt="search" id="searchIcon"></span>
+                    <input type="search" placeholder="Search" class="form-field">
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-3 right-col" id="navbarSupportedContent">
+                <img src="./images/notification-icon.svg" alt="notification" id="notificationIcon">
+                <span><img src="./images/profile.png" alt="profileImg" id="profileImg"></span>
+                <p class="inlineText" id="profileText">
+                    John Doe
+                </p>
+                <span><img src="./images/downward-arrow.svg" alt="arrow" id="arrowIcon"></span>
+            </div>
+        </div>
+        
+        
+
+        <div class="row">
+            <div class="col-lg-2 collapse" id="navbarToggleExternalContent">
+
+                <div>
+                    <p class="selected item"> <span><img src="./images/dashboard-active.svg" alt=""
+                                class="dashboard-image-left"></span> Dashboard </p>
+                </div>
+                <div>
+                    <p class="item"><span><img src="./images/graph-default.svg" alt=""
+                                class="dashboard-image-left"></span>Analysis</p>
+                </div>
+                <div>
+                    <p class="item"><span><img src="./images/inbox-default.svg" alt=""
+                                class="dashboard-image-left"></span>Inbox</p>
+                </div>
+                <div>
+                    <p class="item"><span><img src="./images/clock-default.svg" alt=""
+                                class="dashboard-image-left"></span>History</p>
+                </div>
+                <div>
+                    <p class="item"><span><img src="./images/user-default.svg" alt=""
+                                class="dashboard-image-left"></span>User</p>
+                </div>
+                <div>
+                    <p class="item"><span><img src="./images/maintenance-default.svg" alt=""
+                                class="dashboard-image-left"></span>Maintenance</p>
+                </div>
+                <div>
+                    <p class="item"><span><img src="./images/setting-default.svg" alt=""
+                                class="dashboard-image-left"></span>Settings</p>
+                </div>
+
+            </div>
+            <div class="col main-content">
+              <p class="inner-page-text">Analysis</p>
+              <div class="row inner-main-content">
+                <div class="col">
+                    <div class="row innerpage-row">
+                        <p class="inner-secondary-text">One Column</p>
+                        <input type="text" class="form-control innerpage-field-input" id="name" placeholder="Name">
+                        <select class="form-select form-select-lg mb-3 innerpage-field-input"
+                            aria-label=".form-select-lg example">
+                            <option selected>Dropdown</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <textarea class="form-control innerpage-field-textarea" id="exampleFormControlTextarea1"
+                            rows="3" placeholder="Multiple line"></textarea>
+
+                    </div>
+                    <div class="row innerpage-row">
+                        <p class="inner-secondary-text">Two Column</p>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control innerpage-field-input" id="name"
+                                placeholder="Name">
+                            <input type="password" class="form-control innerpage-field-input" id="password"
+                                placeholder="Password">
+
+                        </div>
+                        <div class="col-sm-6">
+                            <form class="form-floating">
+                                <input type="text" class="form-control innerpage-field-input"
+                                    id="floatingInputValue" placeholder="johndoe" value="johndoe">
+                                <label for="floatingInputValue">Username</label>
+                            </form>
+                            <select class="form-select form-select-lg mb-3 innerpage-field-input"
+                                aria-label=".form-select-lg example">
+                                <option selected >Dropdown</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+
+                    </div>
+                    <div class="row innerpage-row">
+                        <p class="inner-secondary-text">Three Column</p>
+                        <div class="col-sm-6">
+                            <form class="form-floating">
+                                <input type="text" class="form-control innerpage-field-input"
+                                    id="floatingInputValue" placeholder="Focus">
+                                <label for="floatingInputValue">Focus</label>
+                            </form>
+
+                        </div>
+                        <div class="col-sm-6">
+                            <form class="form-floating disable">
+                                <input type="password" class="form-control innerpage-field-input"
+                                    id="floatingInputValue" placeholder="Password" value="123456">
+                                <label for="floatingInputValue">Paasword</label>
+                            </form>
+
+
+                        </div>
+                        <div class="col">
+                            <form class="form-floating disable">
+                                <input type="text" class="form-control innerpage-field-input-dotted"
+                                    id="floatingInputValue" placeholder="Disabled" value="johndoe">
+                                <label for="floatingInputValue">Disabled</label>
+                            </form>
+
+                        </div>
+
+
+                    </div>
+                    <div class="row innerpage-row">
+                        <p class="inner-secondary-text">Four Column</p>
+                        <div class="col-md-3 col-sm-6">
+                            <form class="form-floating">
+                                <input style="margin-bottom: 0px !important;" type="text"
+                                    class="form-control is-invalid innerpage-field-input" id="floatingInputValue"
+                                    placeholder="designation" value="UI Designer">
+                                <label for="floatingInputValue">Designation</label>
+                                <div id="validationServer03Feedback" style="margin-top: 0px !important;"
+                                    class="invalid-feedback">
+                                    Enter valid data
+                                </div>
+                            </form>
+
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+
+                            <input type="text" class="form-control innerpage-field-input" id="name"
+                                placeholder="Name" style="margin-bottom: 0px !important;">
+                            <div style="margin-top: 0px !important; color : rgba(173, 173, 173, 1)">
+                                Enter valid data
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <form class="form-floating">
+                                <input type="text" class="form-control innerpage-field-input"
+                                    id="floatingInputValue" placeholder="johndoe" value="johndoe">
+                                <label for="floatingInputValue">Username</label>
+                            </form>
+
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <select class="form-select form-select-lg mb-3 innerpage-field-input"
+                                aria-label=".form-select-lg example">
+                                <option selected>Select</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+
+                        </div>
+
+
+                    </div>
+                    <div class="row innerpage-row">
+                        <p class="inner-secondary-text">Other Design Elements</p>
+                        <h5>File Upload</h5>
+                        <div>
+                            <button class="upload-btn"><span><img src="./images/cloud-upload-icon.svg"
+                                        alt=""></span>Upload</button>
+                        </div>
+                    </div>
+                    <div class="row innerpage-row">
+                        <p class="inner-secondary-text">Radio Button</p>
+                        <div>
+                            <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label radio-b" for="inlineRadio1">Option-1</label>
+
+
+                            <input class="form-check-input btn-checked " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" checked>
+                            <label class="form-check-label  radio-b" for="inlineRadio2">Option-2</label>
+                        </div>
+
+
+
+                    </div>
+                    <div class="row innerpage-row">
+                        <p class="inner-secondary-text">Check Box</p>
+                        <div>
+
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label  check-b" for="inlineCheckbox1">Option-1</label>
+
+
+                            <input class="form-check-input btn-checked" type="checkbox" id="inlineCheckbox1"
+                                value="option1" checked>
+                            <label class="form-check-label  check-b" for="inlineCheckbox1">Option-2</label>
+                        </div>
+
+
+
+                    </div>
+                    <div class="row innerpage-row">
+                        <p class="inner-secondary-text">Snackbar</p>
+                        <div class="col-sm-6">
+                            
+                            <div class="alert snackbar-item snackbar-item-error" role="alert">
+                                <span><img src="./images/error-icon.svg" alt=""></span>This is an error Message
+                              </div>
+                              <div class="alert alert snackbar-item snackbar-item-warning" role="alert">
+                                <span><img src="./images/warning-icon.svg" alt=""></span> This is warning Message!
+                              </div>
+                            
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="alert snackbar-item snackbar-item-information" role="alert">
+                                <span><img src="./images/info-icon.svg" alt=""></span> This is Information Message!
+                              </div>
+                              <div class="alert snackbar-item snackbar-item-success" role="alert">
+                                <span><img src="./images/success-icon.svg" alt=""></span> This is a success Message!
+                              </div>
+
+                        </div>
+                    </div>
+                    <div class="row innerpage-row">
+                        <p class="inner-secondary-text">Call to action</p>
+                        <div class="col">
+                            <button class="btn-red i-button">Primary</button>
+                            <button class="btn-red-selected i-button">Secondary</button>
+                        </div>
+                    </div>
+                    <div class="row innerpage-row">
+                        <p class="inner-secondary-text">Tabs</p>
+                        <div class="col">
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item">
+                                  <a class="nav-link link-text active-link" aria-current="page" href="#">Tab-1</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link link-text" aria-current="page" href="#">Tab-2</a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                  <a class="nav-link link-text " href="#" tabindex="-1" aria-disabled="true">Tab-3</a>
+                                </li>
+                              </ul>
+                              <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active content-tab" id="tab1-pane" role="tabpanel" aria-labelledby="tab1" tabindex="0">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+              
+          </div>
+            
+        </div>
+    </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
